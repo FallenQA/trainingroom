@@ -1,5 +1,3 @@
-package GitHub;
-
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
@@ -14,7 +12,6 @@ public class MyTrainingRoom {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "https://demoqa.com/";
     }
 
     @Test
